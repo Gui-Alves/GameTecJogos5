@@ -43,5 +43,11 @@ namespace GameTecJogos5.Components
             spriteBatch.Draw(Textura, Frame, Color.White);
         }
 
+        //public bool Colide(Rectangle outro)
+        //{
+        //    Rectangle spriteBox = new Rectangle((int)Posicao.X, (int)Posicao.Y, Textura.Width, Textura.Height);
+        //    Rectangle outraSpriteBox = new Rectangle((int)outraSprite.posicao.X, (int)outraSprite.posicao.Y, outraSprite.textura.Width, outraSprite.textura.Height);
+        //    return spriteBox.Intersects(outraSpriteBox);
+        //}
     }
 }
